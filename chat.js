@@ -19,7 +19,7 @@ const login = document.getElementById('login-page');
 
 sendUser.addEventListener('click', () => {
   if (user.value === null || user.value.trim().length === 0) {
-    userErr.innerHTML = '🚨 Name is required!';
+    userErr.innerHTML = 'Name is required!';
     return;
   }
 
@@ -32,7 +32,7 @@ sendUser.addEventListener('click', () => {
 
 sendMsg.addEventListener('click', () => {
   if (message.value === null || message.value.trim().length === 0) {
-    msgErr.innerHTML = '🚨 Message is required!';
+    msgErr.innerHTML = 'Message is required!';
     return;
   }
 
