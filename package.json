@@ -1,0 +1,25 @@
+{
+    "name": "artichoke_chat",
+    "version": "1.0.0",
+    "description": "A Simple Chat Client",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "chat",
+        "socket.io",
+        "express"
+    ],
+    "author": "SONU BAGGA",
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "nodemon": "^2.0.2"
+    }
+}
